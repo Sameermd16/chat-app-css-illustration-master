@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;1,400&display=swap');
 body{
     font-family: "Rubik", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .attribution {
@@ -28,7 +31,7 @@ aside{
 .wrapper{
     display: flex;
     align-items: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -115,7 +118,16 @@ aside{
     border-radius: 5px;
     padding: 0.5rem;
 }
-.msg-right-1, .msg-left-3{
+.msg-right-1{
+    font-size: 11px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsla(276, 100%, 81%, 0.509);
+    width: 65%;
+    /* margin: 0.3rem 0; */
+    border-radius: 5px;
+    /* padding: 0.5rem; */
+}
+.msg-left-3{
     font-size: 11px;
     color: hsl(276, 55%, 52%);
     background-color: hsla(276, 100%, 81%, 0.509);
@@ -131,17 +143,15 @@ aside{
     margin: 0.5rem 0;
     border-radius: 5px;
     padding: 0.5rem;
+    /* border: 1px solid black; */
 }
 .msg-right-2{
-    /* align-self: right; */
     font-size: 11px;
     color: hsl(276, 55%, 52%);
-    /* background-color: hsla(276, 100%, 81%, 0.509); */
     width: 40%;
-    /* text-align: right; */
-    margin: 0.5rem 0;
     border-radius: 5px;
     padding: 0.5rem;
+    margin: 0;
 }
 .msg-left-5{
     width: 40%;
@@ -153,7 +163,6 @@ aside{
 }
 .images{
     text-align: right;
-    margin-top: 0.8rem;
 }
 .msg-left-4, .msg-left-5{
     width: 75%;
@@ -179,7 +188,7 @@ aside{
 }
 input{
     width: 100%;
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
     border-radius: 30px;
     border: none;
     box-shadow: 0 0 5px 1px rgba(0, 0,0, 0.2);
@@ -189,8 +198,8 @@ input{
 }
 .chevron-under-circle{
     position: relative;
-    top: 18px;
-    left: 235px;
+    top: 13px;
+    left: 237px;
     height: 30px;
     width: 30px;
     color: white;
@@ -203,6 +212,14 @@ h1{
 .booking p{
     line-height: 1.5rem;
     opacity: 50%;
+}
+.mid-msg{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 90px;
+   
 }
 @media only screen and (min-width: 1000px){
     .phone-screen{
