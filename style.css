@@ -65,6 +65,7 @@ aside{
     width: 30px;
     border-radius: 50%;
     border: 1px  solid white;
+    margin-right: .5rem;
 }
 .person{
     display: flex;
@@ -174,6 +175,7 @@ aside{
 .circle-icon{
     width: 20px;
     height: 23px;
+    color: hsl(276, 100%, 81%);
 }
 input{
     width: 100%;
@@ -201,4 +203,10 @@ h1{
 .booking p{
     line-height: 1.5rem;
     opacity: 50%;
+}
+@media only screen and (min-width: 1000px){
+    .phone-screen{
+        width: 300px;
+        height: 70vh;
+    }
 }
