@@ -33,7 +33,7 @@ aside{
     margin: 0 auto;
 }
 .phone-screen{
-    height: 70vh;
+    height: 75vh;
     width: 30%;
     /* border: 1px solid red; */
     border-radius: 20px;
@@ -41,8 +41,10 @@ aside{
     left: -50px;
     background-color: white;
     overflow: hidden;
-    padding: 1rem;
+    /* padding: 1rem; */
+    border: 12px solid white;
     box-shadow: 0 0 5px 1px rgba(0, 0,0, 0.2);
+    background-color: hsl(270, 20%, 96%);
 
 }
 .booking{
@@ -69,6 +71,29 @@ aside{
     align-items: center;
     color: white;
     font-size: 12px;
+    /* border: 1px solid white; */
+    /* justify-content: space-aroun; */
+    
+}
+.dots{
+    /* flex-grow: 1; */
+    /* border: 1px solid white; */
+    text-align: right;
+    margin-left: 5rem;
+    color: white;
+    height: 15px;
+}
+.name{
+    color: hsl(270, 20%, 96%);
+}
+.role{
+    color: hsl(276, 100%, 81%);
+}
+.chevron{
+    width: 20px;
+    height: 20px;
+    margin: 0 0.3rem;
+    /* border: 1px solid black; */
 }
 .small-top{
     width: 50%;
@@ -101,7 +126,7 @@ aside{
 .msg{
     font-size: 11px;
     color: hsl(276, 55%, 52%);
-    background-color: hsla(276, 100%, 81%, 0.509);
+    background-color: hsla(276, 100%, 81%, 0.284);
     margin: 0.5rem 0;
     border-radius: 5px;
     padding: 0.5rem;
@@ -110,16 +135,20 @@ aside{
     /* align-self: right; */
     font-size: 11px;
     color: hsl(276, 55%, 52%);
-    background-color: hsla(276, 100%, 81%, 0.509);
+    /* background-color: hsla(276, 100%, 81%, 0.509); */
     width: 40%;
     /* text-align: right; */
     margin: 0.5rem 0;
     border-radius: 5px;
     padding: 0.5rem;
 }
+.msg-left-5{
+    width: 40%;
+}
 .images img{
     width: 35px;
-    border-radius: 10px;
+    border-radius: 8px;
+    margin: 0 0.2rem;
 }
 .images{
     text-align: right;
@@ -148,12 +177,23 @@ aside{
 }
 input{
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     border-radius: 30px;
     border: none;
     box-shadow: 0 0 5px 1px rgba(0, 0,0, 0.2);
     height: 40px;
     padding: 1rem;
+    position: absolute;
+}
+.chevron-under-circle{
+    position: relative;
+    top: 18px;
+    left: 235px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
 }
 h1{
     letter-spacing: 2px;
