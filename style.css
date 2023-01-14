@@ -215,20 +215,14 @@ h1{
     align-items: flex-end;
     height: 90px;  
 }
-.inner-wrapper{
-    /* display: flex; */
-}
+
 @media only screen and (max-width: 950px){
    .wrapper{
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
    }
-   aside, .phone-screen, .booking{
-    /* margin: 0 auto; */
-    /* height: 500px; */
-    /* left: 0; */
-   }
+  
    .booking{
     padding: 2rem;
    }
